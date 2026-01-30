@@ -529,7 +529,7 @@ $("#bookingForm").on("submit", function(e){
     e.preventDefault();
 
     $.ajax({
-        url: "enq.php",
+        url: "booking.php",
         type: "POST",
         data: $(this).serialize(),
         success: function(response){
